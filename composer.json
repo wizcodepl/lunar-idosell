@@ -1,0 +1,57 @@
+{
+    "name": "wizcodepl/lunar-idosell",
+    "description": "Idosell as a sales channel for Lunar PHP — bi-directional sync of products, stock, orders and order statuses.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "lunar",
+        "lunarphp",
+        "laravel",
+        "idosell",
+        "marketplace",
+        "ecommerce",
+        "sync"
+    ],
+    "homepage": "https://github.com/wizcodepl/lunar-idosell",
+    "require": {
+        "php": "^8.2",
+        "lunarphp/core": "^1.3"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.18",
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WizcodePl\\LunarIdosell\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WizcodePl\\LunarIdosell\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WizcodePl\\LunarIdosell\\LunarIdosellServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "format": "vendor/bin/pint",
+        "format:check": "vendor/bin/pint --test",
+        "analyse": "vendor/bin/phpstan analyse --memory-limit=512M"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
