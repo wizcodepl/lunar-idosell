@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="art/logo.svg" alt="Lunar Idosell" width="200">
+</p>
+
 # lunar-idosell
 
 Idosell integration for [Lunar PHP](https://lunarphp.io). Customers buy on Idosell, stock and orders flow back into Lunar in real time.
