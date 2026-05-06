@@ -1,2 +1,121 @@
 parameters:
 	ignoreErrors:
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$city\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$contact_email\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$contact_phone\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$country\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$first_name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$last_name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$line_one\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$postcode\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$purchasable\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$quantity\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$total\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>city" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>contact_email" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>contact_phone" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>first_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>idosell_id" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>iso2" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>last_name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>line_one" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>postcode" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: src/Actions/PushOrderToIdosell.php
